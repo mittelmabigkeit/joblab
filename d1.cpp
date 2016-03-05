@@ -1,19 +1,16 @@
-#include <iostream.h>
-#include <string>
-#include <locale.h>
-#include <clocale>
+#include <iostream>
+//#include <string>
+//#include <locale.h>
+//#include <clocale>
 using namespace std;
 int main()
     {
-          int age,tr;
-          setlocale(LC_ALL,"Russian");
-           SetConsoleCP(1251);
-    SetConsoleOutputCP(1251);
+          int age;
           // Âûââîäèòñÿ ñîîáùåíèå
           cout <<"Hello, World!\n";
+          cout << "Your age ..." <<endl;
           cin >> age;
-          cout << "Âàøå ÷èñëî" << age;
-          cin >> age;
+          cout<<"Your age: "<<age<<endl;
           system("pause");
           return 0;
 }
