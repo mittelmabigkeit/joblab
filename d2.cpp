@@ -5,26 +5,18 @@
 using namespace std;
 int main()
     {
-          int age,tr;
+          int age,agetwo;
           setlocale(LC_ALL,"Russian");
           // Вывводится сообщение
-          cout <<"Hello, World!\n";
+          cout <<"Write your age..."<<endl;
           cin >> age;
-          cout << "dddddddddd" << age;
-          cin >> age;
-          cout << " asasasa\n";
-          cout << endl;
-          cout << endl;
-          cout << endl;
-          cout <<" _______ 4";
-          int s;
-          s=10;
+          cout << "Your age:" << age<<endl;
+          cout << "Write your brother age..."<<endl;
+          cin >> agetwo;
+          cout << "Your brother age: "<<age<<endl;
           int summa=0;
-          summa=++s;
-          cout << summa;
-          cout << "\n";
-          summa=s++;
-          cout << summa;
+          summa=age+agetwo;
+          cout <<"Sum of yours births: "<<summa<<endl;
           system("pause");
           return 0;
 }
